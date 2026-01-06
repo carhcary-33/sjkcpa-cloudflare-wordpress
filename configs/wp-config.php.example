@@ -1,0 +1,19 @@
+<?php
+// Example wp-config.php (sanitized)
+
+// Database settings
+define('DB_NAME', 'example_db');
+define('DB_USER', 'example_user');
+define('DB_PASSWORD', 'example_password');
+define('DB_HOST', 'localhost');
+
+// Table prefix
+$table_prefix = 'sjk_';
+
+// HTTPS handling behind Cloudflare
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
+    $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+    $_SERVER['HTTPS'] = 'on';
+}
+
+// Security keys omitted intentionally
