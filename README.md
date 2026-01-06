@@ -1,6 +1,3 @@
-# sjkcpa-cloudflare-wordpress
-Secure WordPress deployment using Cloudflare Tunnel (Zero Trust)
-
 # Secure WordPress Deployment Behind Cloudflare Tunnel
 
 ## Overview
